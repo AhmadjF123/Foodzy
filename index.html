@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Foodzy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg" href="Images/Page-1 1.svg">
+  </head>
+  <body>
+
+      <nav class="mb-1 border-bottom shadow-sm navbar navbar-expand-lg">
+        <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="me-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <select
+                class="border-0 pe-3 me-3"
+                id="main-chart-period"
+              >
+                <option value="M1" selected>Category</option>
+                <option value="M5">M5</option>
+                <option value="M15">M15</option>
+                <option value="M30">M30</option>
+                <option value="H1">H1</option>
+                <option value="H4">H4</option>
+                <option value="D1">D1</option>
+              </select>
+
+              <select
+                class=" border-0 pe-3 me-3"
+                id="main-chart-period"
+              >
+                <option value="M1">M1</option>
+                <option value="M5">M5</option>
+                <option value="M15" selected>Products</option>
+                <option value="M30">M30</option>
+                <option value="H1">H1</option>
+                <option value="H4">H4</option>
+                <option value="D1">D1</option>
+              </select>
+
+              <select
+                class=" border-0 pe-3 me-3"
+                id="main-chart-period"
+              >
+                <option value="M1">M1</option>
+                <option value="M5">M5</option>
+                <option value="M15" selected>Pages</option>
+                <option value="M30">M30</option>
+                <option value="H1">H1</option>
+                <option value="H4">H4</option>
+                <option value="D1">D1</option>
+              </select>
+
+              <select
+                class=" border-0 pe-3 me-3"
+                id="main-chart-period"
+              >
+                <option value="M1">M1</option>
+                <option value="M5">M5</option>
+                <option value="M15" selected>Blog</option>
+                <option value="M30">M30</option>
+                <option value="H1">H1</option>
+                <option value="H4">H4</option>
+                <option value="D1">D1</option>
+              </select>
+
+              <select
+                class=" border-0 pe-3 me-3"
+                id="main-chart-period"
+              >
+                <option value="M1">M1</option>
+                <option value="M5">M5</option>
+                <option value="M15" selected>Ekements</option>
+                <option value="M30">M30</option>
+                <option value="H1">H1</option>
+                <option value="H4">H4</option>
+                <option value="D1">D1</option>
+              </select>
+            </ul>
+            <span class="navbar-text">
+              <i class="fa-solid fa-phone"></i> +123 ( 456 ) ( 7890 )
+            </span>
+          </div>
+      </nav>
+
+
+      <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm py-2 px-4">
+        <div class="container">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="navbar-brand d-flex align-items-center justify-content-center" href="/">
+            <img src="Images/Page-1 1.svg" alt="Logo" class="me-2">
+            <div>
+              <strong class="fs-2 fw-bold">Foodzy</strong><br>
+              <small class="fw-semibold">A Treasure of Tastes</small>
+            </div>
+          </a>
+
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+
+          <form class="d-flex flex-column flex-lg-row align-items-stretch mx-auto mt-3 mt-lg-0" role="search" style="width: 100%; max-width: 700px;">
+  
+              <input class="form-control me-lg-2 mb-2 mb-lg-0" type="search" placeholder="Search For Items..." aria-label="Search">
+              <select class="form-select me-lg-2 mb-2 mb-lg-0" style="width: 160px;">
+              <option selected>All Categories</option>
+              <option>Pizza</option>
+              <option>Burgers</option>
+              <option>Drinks</option>
+            </select>
+            <button class="btn btn-dark" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+
+          <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center mt-3 mt-lg-0">
+            <a href="#" class="text-decoration-none text-dark me-lg-4 mb-2 mb-lg-0">
+              <i class="fa-regular fa-user"></i> Account
+            </a>
+            <a href="#" class="text-decoration-none text-dark me-lg-4 mb-2 mb-lg-0">
+              <i class="fa fa-heart"></i> Wishlist
+            </a>
+            <a href="#" class="text-decoration-none text-dark">
+              <i class="fa-solid fa-cart-shopping"></i> Cart
+            </a>
+          </div>
+        </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid p-0">
+        <img width="100%" src="Images/cover.png" alt="">
+      </div>
+
+      <div class="container">
+        <h4 style="color: #F53E32;" class="text-center pt-5 pb-2">Customer Favorites</h4>
+        <h1 class="text-center fw-bold pb-5">Popular Categories</h1>
+
+        <div class="row d-flex gap-5 justify-content-center">
+          <div style="background-color: #FFFFFF!important; width: 225px; border-radius: 20px;" class="col-2 d-flex flex-column align-items-center justify-content-center shadow-lg p-0 mb-5">
+            <img class="p-3 rounded-circle" style="background-color: #C0B263;" src="Images/Main Dish.png" alt="">
+            <h1 class="fs-3">Main Dish</h1>
+            <h3 style="color: gray;">(86 dishes)</h3>
+          </div>
+
+
+           <div style="background-color: #FFFFFF!important;border-radius: 20px; width: 225px;" class="col-2 py-5 d-flex flex-column align-items-center justify-content-center shadow-lg p-3 mb-5 bg-body-tertiary">
+            <img class="p-3 rounded-circle" style="background-color: #C0B263;" src="Images/Break Fast.png" alt="">
+            <h1 class="fs-3">Break Fast</h1>
+            <h3 style="color: gray;">(12 break fast)</h3>
+          </div>
+
+
+           <div style="background-color: #FFFFFF!important;border-radius: 20px; width: 225px;" class="col-2 py-5 d-flex flex-column align-items-center justify-content-center shadow-lg p-3 mb-5 bg-body-tertiary">
+            <img class="p-3 rounded-circle" style="background-color: #C0B263;" src="Images/Dessert.png" alt="">
+            <h1 class="fs-3">Dessert</h1>
+            <h3 style="color: gray;">(48 dessert)</h3>
+          </div>
+
+
+           <div style="background-color: #FFFFFF!important;border-radius: 20px; width: 225px;" class="col-2 py-5 d-flex flex-column align-items-center justify-content-center shadow-lg p-3 mb-5 bg-body-tertiary">
+            <img class="p-3 rounded-circle" style="background-color: #C0B263;" src="Images/Browse All.png" alt="">
+            <h1 class="fs-3">Browse All</h1>
+            <h3 style="color: gray;">(255 items)</h3>
+          </div>
+
+           <div style="background-color: #FFFFFF!important;border-radius: 20px; width: 225px;" class="col-5 py-5 d-flex flex-column align-items-center justify-content-center shadow-lg p-3 mb-5 bg-body-tertiary">
+            <img class="p-3 rounded-circle" style="background-color: #C0B263;" src="Images/Breakfast Food.png" alt="">
+            <h1 class="text-center fs-3">Breakfast Food</h1>
+            <h3 style="color: gray;">(205 items)</h3>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row g-4 mt-5 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center">
+
+          <div class="col-12 col-lg-4" style="background-image: url(Images/div.banner-img.svg); background-repeat: no-repeat; background-size: cover; height: 670px; border-radius: 20px;">
+            <h1 class="mb-5 mt-5 ms-5 w-75 text-light mw-10">Bring nature into your home</h1>
+            <button style="background-color: #F53E32;" class="w-auto px-4 py-2 mt-5 ms-5 text-light border-0 rounded">Shop now <i class="fa-solid fa-arrow-right fs-6"></i></button>
+          </div>
+
+
+        <div class="col">
+      <div class="shadow-sm p-3 h-100 rounded position-relative">
+        <img class="w-100" src="Images/italian.png" alt="">
+        <div class="ms-2">
+          <p class="text-muted">Hodo Foods</p>
+          <h4 class="fw-semibold">All Natural Italian-Style Chicken Meatballs</h4>
+          <span><i class="fa fa-star text-warning"></i></span>
+          <p class="mt-4">
+            <span class="text-success fw-bold pe-2 fs-4">$238.85</span>
+            <span class="text-muted text-decoration-line-through">$245.8</span>
+          </p>
+          <div class="progress" style="height: 6px;">
+            <div class="progress-bar" style="width: 50%; background-color: #F53E32;"></div>
+          </div>
+          <p class="fw-semibold mt-2">Sold: 90/120</p>
+          <button class="btn w-100 py-3 mt-4 text-light" style="background-color: #F53E32;">Add To Cart</button>
+        </div>
+        <div class="curve position-absolute top-0 start-0 text-light px-2 py-1">Save 35%</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="shadow-sm p-3 h-100 rounded position-relative">
+        <img class="w-100" src="Images/sweet.png" alt="">
+        <div class="ms-2">
+          <p class="text-muted">Hodo Foods</p>
+          <h4 class="fw-semibold">Angie’s Boomchickapop Sweet and womnies</h4>
+          <span><i class="fa fa-star text-warning"></i></span>
+          <p class="mt-4">
+            <span class="text-success fw-bold pe-2 fs-4">$238.85</span>
+            <span class="text-muted text-decoration-line-through">$245.8</span>
+          </p>
+          <div class="progress" style="height: 6px;">
+            <div class="progress-bar" style="width: 50%; background-color: #F53E32;"></div>
+          </div>
+          <p class="fw-semibold mt-2">Sold: 90/120</p>
+          <button class="btn w-100 py-3 mt-4 text-light" style="background-color: #F53E32;">Add To Cart</button>
+        </div>
+        <div class="curve position-absolute top-0 start-0 text-light px-2 py-1" style="background-color: #67bcee;">Sale</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="shadow-sm p-3 h-100 rounded position-relative">
+        <img class="w-100" src="Images/Crispy.svg" alt="">
+        <div class="ms-2">
+          <p class="text-muted">Hodo Foods</p>
+          <h4 class="fw-semibold">Foster Farms Takeout Crispy Classic</h4>
+          <span><i class="fa fa-star text-warning"></i></span>
+          <p class="mt-4">
+            <span class="text-success fw-bold pe-2 fs-4">$238.85</span>
+            <span class="text-muted text-decoration-line-through">$245.8</span>
+          </p>
+          <div class="progress" style="height: 6px;">
+            <div class="progress-bar" style="width: 50%; background-color: #F53E32;"></div>
+          </div>
+          <p class="fw-semibold mt-2">Sold: 90/120</p>
+          <button class="btn w-100 py-3 mt-4 text-light" style="background-color: #F53E32;">Add To Cart</button>
+        </div>
+        <div class="curve position-absolute top-0 start-0 text-light px-2 py-1" style="background-color: #f59758;">Best sale%</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="shadow-sm p-3 h-100 rounded position-relative">
+        <img class="w-100" src="Images/LightlySalted.png" alt="">
+        <div class="ms-2">
+          <p class="text-muted">Hodo Foods</p>
+          <h4 class="fw-semibold">Blue Diamond Almonds Lightly Salted</h4>
+          <span><i class="fa fa-star text-warning"></i></span>
+          <p class="mt-4">
+            <span class="text-success fw-bold pe-2 fs-4">$238.85</span>
+            <span class="text-muted text-decoration-line-through">$245.8</span>
+          </p>
+          <div class="progress" style="height: 6px;">
+            <div class="progress-bar" style="width: 50%; background-color: #F53E32;"></div>
+          </div>
+          <p class="fw-semibold mt-2">Sold: 90/120</p>
+          <button class="btn w-100 py-3 mt-4 text-light" style="background-color: #F53E32;">Add To Cart</button>
+        </div>
+        <div class="curve position-absolute top-0 start-0 text-light px-2 py-1" style="background-color: #f74b81;">Save 15%</div>
+      </div>
+    </div>
+
+         
+     </div>
+      </div>
+
+
+      <div class="container">
+      <h4 class="fw-bold" style="color: #F53E32;">SPECIAL DISHES</h4>
+
+      <div class="my-5 d-flex flex-column flex-lg-row justify-content-between align-items-start align-items-lg-center">
+        <h1 style="max-width: 350px;" class="fw-bold">Standout Dishes From Our Menu</h1>
+        <div class="arrow mt-3 mt-lg-0">
+          <span><i class="fa-solid fa-less-than me-2"></i></span>
+          <span><i class="fa-solid fa-greater-than"></i></span>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+        <div class="col cardd">
+          <div class="card shadow bg-body-tertiary h-100 p-3" style="border-radius: 20px; background-color: #ffffff !important;">
+            <img src="Images/Fattoush salad.png" class="p-4 card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="fw-bold ps-2 card-title">Fattoush salad</h5>
+              <p class="ps-2 card-text pt-2">Description of the item</p>
+              <div class="fav">
+                <span><i class="fa-solid fa-heart"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col cardd">
+          <div class="card shadow bg-body-tertiary h-100 p-3" style="border-radius: 20px; background-color: #ffffff !important;">
+            <img src="Images/Vegetable salad.png" class="p-4 card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="fw-bold ps-2 card-title">Vegetable salad</h5>
+              <p class="ps-2 card-text pt-2">Description of the item</p>
+              <div class="fav">
+                <span><i class="fa-regular fa-heart"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col cardd">
+          <div class="card shadow bg-body-tertiary h-100 p-3" style="border-radius: 20px; background-color: #ffffff !important;">
+            <img src="Images/Egg salad.png" class="p-4 card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="fw-bold ps-2 card-title">Egg vegi salad</h5>
+              <p class="ps-2 card-text pt-2">Description of the item</p>
+              <div class="fav">
+                <span><i class="fa-regular fa-heart"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+       <div class="container">
+
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mt-5 mb-5">
+    <h2>Deals Of The Day</h2>
+    <select class="border-0 mt-3 mt-md-0">
+      <option selected>All Deals</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+
+  <div style="height: 100%;" class="asd row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 me-5 mb-5">
+
+    <div style="height: 450px;" class="col">
+      <div class="deals-card">
+        <img src="Images/banner-5.png.svg" class="card-img-top w-100" alt="">
+        <div class="card-body shadow p-3 bg-body-tertiary rounded">
+          <h5 class="card-title mb-3">Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+          <span class="text-warning pe-2"><i class="fa fa-star"></i></span>
+          <span class="text-muted">(4.0)</span>
+          <p class="mt-2 text-muted">By <span class="text-success">NestFood</span></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <span class="fs-4 fw-semibold text-success">$32.85 </span>
+              <span class="text-muted text-decoration-line-through">$33.8</span>
+            </div>
+            <button class="btn text-light" style="background-color: #F53E32;">
+              <i class="fa-solid fa-cart-shopping"></i> Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 450px;" class="col">
+      <div class="deals-card">
+        <img src="Images/banner-6.png.svg" class="card-img-top w-100" alt="">
+        <div class="card-body shadow p-3 bg-body-tertiary rounded">
+          <h5 class="card-title mb-3">Perdue Simply Smart Organics Gluten Free</h5>
+          <span class="text-warning pe-2"><i class="fa fa-star"></i></span>
+          <span class="text-muted">(4.0)</span>
+          <p class="mt-2 text-muted">By <span class="text-success">Old El Paso</span></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <span class="fs-4 fw-semibold text-success">$24.85 </span>
+              <span class="text-muted text-decoration-line-through">$26.8</span>
+            </div>
+            <button class="btn text-light" style="background-color: #F53E32;">
+              <i class="fa-solid fa-cart-shopping"></i> Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 450px;" class="col">
+      <div class="deals-card">
+        <img src="Images/banner-7.png.svg" class="card-img-top w-100" alt="">
+        <div class="card-body shadow p-3 bg-body-tertiary rounded">
+          <h5 class="card-title mb-3">Signature Wood-Fired Mushroom and Caramelized</h5>
+          <span class="text-warning pe-2"><i class="fa fa-star"></i></span>
+          <span class="text-muted">(3.0)</span>
+          <p class="mt-2 text-muted">By <span class="text-success">Progresso</span></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <span class="fs-4 fw-semibold text-success">$12.85 </span>
+              <span class="text-muted text-decoration-line-through">$13.8</span>
+            </div>
+            <button class="btn text-light" style="background-color: #F53E32;">
+              <i class="fa-solid fa-cart-shopping"></i> Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 450px;" class="col">
+      <div class="deals-card">
+        <img src="Images/banner-8.png.svg" class="card-img-top w-100" alt="">
+        <div class="card-body shadow p-3 bg-body-tertiary rounded">
+          <h5 class="card-title mb-3">Simply Lemonade with Raspberry Juice</h5>
+          <span class="text-warning pe-2"><i class="fa fa-star"></i></span>
+          <span class="text-muted">(3.0)</span>
+          <p class="mt-2 text-muted">By <span class="text-success">Yoplait</span></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <span class="fs-4 fw-semibold text-success">$15.85 </span>
+              <span class="text-muted text-decoration-line-through">$16.8</span>
+            </div>
+            <button class="btn text-light" style="background-color: #F53E32;">
+              <i class="fa-solid fa-cart-shopping"></i> Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+            <img class="w-100 rounded-4" src="Images/image 28.png" alt="Salad">
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <h1 class="fs-1">Why People Choose us?</h1>
+
+            <div class="mt-4 mb-2 shadow-sm d-flex align-items-center rounded-4">
+              <div class="ms-3 mt-2 me-4">
+                <img class="shadow mb-4" style="width: 80px; border-radius: 50%; padding: 20px;" src="Icons/01.svg" alt="">
+              </div>
+              <div class="p-3">
+                <h4>Convenient and Reliable</h4>
+                <p class="mb-0">Whether you dine in, take out, or order delivery, our service is convenient, fast, and reliable, making mealtime hassle-free.</p>
+              </div>
+            </div>
+
+            <div class="mt-4 mb-2 shadow-sm d-flex align-items-center rounded-4">
+              <div class="ms-3 mt-2 me-4">
+                <img class="shadow mb-4" style="width: 80px; border-radius: 50%; padding: 20px;" src="Icons/02.svg" alt="">
+              </div>
+              <div class="p-3">
+                <h4>Variety of Options</h4>
+                <p class="mb-0">From hearty meals to light snacks, we offer a wide range of options to suit every taste and craving.</p>
+              </div>
+            </div>
+
+            <div class="mt-4 mb-2 shadow-sm d-flex align-items-center rounded-4">
+              <div class="ms-3 mt-2 me-4">
+                <img class="shadow mb-4" style="width: 80px; border-radius: 50%; padding: 20px;" src="Icons/03.svg" alt="">
+              </div>
+              <div class="p-3">
+                <h4>Eat Burger</h4>
+                <p class="mb-0">Our burgers are grilled to perfection, with juicy patties and flavorful toppings that make every bite a delicious experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container bg-dark text-light rounded-4 my-5 p-5">
+  <div class="row align-items-center">
+
+    <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+      <h1 class="mb-3" style="max-width: 550px;">Stay home & get your daily needs from our shop</h1>
+      <p class="text-secondary">Start You'r Daily Shopping with <span class="text-success">Nest Mart</span></p>
+      <div class="input-group mt-4">
+        <input type="email" class="form-control rounded-start-pill ps-4 py-2" placeholder="Your email address">
+        <button class="btn btn-danger rounded-end-pill px-4" type="button">Subscribe</button>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-12 text-center">
+      <img src="Images/banner-9.png.svg" class="img-fluid" alt="Banner">
+    </div>
+  </div>
+      </div>
+
+      <div class="container">
+  <div class="row gy-4">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl">
+      <div class="d-flex px-4 pt-3" style="border-radius: 20px; background-color: #f4f6fa;">
+        <div>
+          <img class="w-50" src="Icons/best price.svg" alt="">
+        </div>
+        <div>
+          <h5 style="font-size: 15px;">Best prices & offers</h5>
+          <p style="color: gray; font-size: 13px;">Orders $50 or more</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl">
+      <div class="d-flex px-4 pt-3" style="border-radius: 20px; background-color: #f4f6fa;">
+        <div>
+          <img class="w-50" src="Icons/free delivery.svg" alt="">
+        </div>
+        <div>
+          <h5 style="font-size: 15px;">Free delivery</h5>
+          <p style="color: gray; font-size: 13px;">24/7 amazing services</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl">
+      <div class="d-flex px-4 pt-3" style="border-radius: 20px; background-color: #f4f6fa;">
+        <div>
+          <img class="w-50" src="Icons/daily deal.svg" alt="">
+        </div>
+        <div>
+          <h5 style="font-size: 15px;">Great daily deal</h5>
+          <p style="color: gray; font-size: 13px;">When you sign up</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl">
+      <div class="d-flex px-4 pt-3" style="border-radius: 20px; background-color: #f4f6fa;">
+        <div>
+          <img class="w-50" src="Icons/assortment.svg" alt="">
+        </div>
+        <div>
+          <h5 style="font-size: 15px;">Wide assortment</h5>
+          <p style="color: gray; font-size: 13px;">Mega Discounts</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl">
+      <div class="d-flex px-4 pt-3" style="border-radius: 20px; background-color: #f4f6fa;">
+        <div>
+          <img class="w-50" src="Icons/easy returns.svg" alt="">
+        </div>
+        <div>
+          <h5 style="font-size: 15px;">Easy returns</h5>
+          <p style="color: gray; font-size: 13px;">Within 30 days</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+
+
+      <footer style="background-color: #f7f7f8;" class="py-5 mt-5">
+  <div class="container">
+    <div class="row gy-5">
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="d-flex gap-3 align-items-center">
+          <img class="mb-3" style="width: 50px;" src="Images/Page 1 1.svg" alt="">
+          <div>
+            <h4 class="text-dark fs-5 fw-bold mb-0">Foodzy</h4>
+            <p class="text-muted" style="font-size: 14px;">A Treasure of Tastes</p>
+          </div>
+        </div>
+        <p class="text-muted">
+          FoodTrove is the biggest market of grocery products. Get your daily needs from our store.
+        </p>
+        <p class="text-muted">
+          <span class="me-2 text-danger"><i class="fa-solid fa-location-dot"></i></span>
+          51 Green St. Huntington ohaio beach ontario, NY 11746 KY 4783, USA.
+        </p>
+        <p class="text-muted">
+          <span class="me-2 text-danger"><i class="fa-solid fa-envelope"></i></span>
+          example@email.com
+        </p>
+        <p class="text-muted">
+          <span class="me-2 text-danger"><i class="fa-solid fa-phone"></i></span>
+          +91 123 4567890
+        </p>
+      </div>
+
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <h3 class="fs-5 text-dark fw-bold">Company</h3>
+        <ul class="list-unstyled">
+          <li><a class="text-muted text-decoration-none" href="#">About Us</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Delivery Info</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Privacy Policy</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Terms</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Contact Us</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Support</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <h3 class="fs-5 text-dark fw-bold">Category</h3>
+        <ul class="list-unstyled">
+          <li><a class="text-muted text-decoration-none" href="#">Dairy & Bakery</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Fruits & Veg</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Snacks & Spice</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Juice & Drinks</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Chicken & Meat</a></li>
+          <li><a class="text-muted text-decoration-none" href="#">Fast Food</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <h3 class="fs-5 text-dark fw-bold">Subscribe Our Newsletter</h3>
+        <div class="input-group mb-4 mt-3">
+          <input type="email" class="form-control rounded-start" placeholder="Search here...">
+          <button class="btn btn-outline-secondary border-0 bg-white text-dark rounded-end">🔍</button>
+        </div>
+
+        <div class="mb-4">
+          <span class="bg-white p-2 text-dark rounded"><i class="fa-brands fa-facebook-f"></i></span>
+          <span class="bg-white p-2 text-dark rounded"><i class="fa-brands fa-x-twitter"></i></span>
+          <span class="bg-white p-2 text-dark rounded"><i class="fa-solid fa-basketball"></i></span>
+          <span class="bg-white p-2 text-dark rounded"><i class="fa-brands fa-instagram"></i></span>
+        </div>
+
+        <div class="d-flex flex-wrap gap-2">
+          <img class="me-1" src="Images/18 →  → 1.jpg.png" alt="" style="width: 60px;">
+          <img class="me-1" src="Images/18 →  → 2.jpg.png" alt="" style="width: 60px;">
+          <img class="me-1" src="Images/18 →  → 3.jpg.png" alt="" style="width: 60px;">
+          <img class="me-1" src="Images/18 →  → 4.jpg.png" alt="" style="width: 60px;">
+          <img class="me-1" src="Images/18 →  → 5.jpg.png" alt="" style="width: 60px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="border-top mt-5 pt-3 text-center">
+      <p class="m-0 text-muted">© 2025 <span class="text-danger">Foodzy</span>, All rights reserved.</p>
+    </div>
+  </div>
+      </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

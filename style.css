@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff !important;
+}
+
+.p-save {
+  position: relative;
+
+}
+.curve {
+  color: white;
+  background-color: #3bb77e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 0px 30px;
+  padding-top: 5px;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.arrow span {
+  background-color: #efefef;
+  color: gray;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.arrow span:last-child {
+  background-color: #F53E32;
+  color: white;
+  margin-left: 20px;
+}
+
+.cardd {
+  position: relative;
+}
+
+.cardd .fav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #F53E32;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0px 20px 0px 20px;
+}
+
+.deals-card {
+  position: relative;
+}
+
+.deals-card .card-body {
+  position: absolute;
+  background-color: #ffffff !important;
+  top: 190px;
+  left: 0px;
+  /* width: 270px; */
+
+}
+
+.deals-card .card-body h5 {
+  font-size: 15px;
+}
+
+
+.container .row .col-2 li {
+  margin-top:20px
+}
+
