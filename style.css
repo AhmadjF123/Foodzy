@@ -10,7 +10,6 @@ body {
 
 .p-save {
   position: relative;
-
 }
 .curve {
   color: white;
@@ -32,7 +31,7 @@ body {
 }
 
 .arrow span:last-child {
-  background-color: #F53E32;
+  background-color: #f53e32;
   color: white;
   margin-left: 20px;
 }
@@ -45,7 +44,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #F53E32;
+  background-color: #f53e32;
   color: white;
   padding: 10px 20px;
   border-radius: 0px 20px 0px 20px;
@@ -60,16 +59,12 @@ body {
   background-color: #ffffff !important;
   top: 190px;
   left: 0px;
-  /* width: 270px; */
-
 }
 
 .deals-card .card-body h5 {
   font-size: 15px;
 }
 
-
 .container .row .col-2 li {
-  margin-top:20px
+  margin-top: 20px;
 }
-
